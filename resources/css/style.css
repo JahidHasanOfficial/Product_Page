@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.cart-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.product-page {
+    display: flex;
+    padding: 20px;
+}
+
+.product-carousel {
+    flex: 1;
+}
+
+.product-carousel img.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-thumbnails {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.carousel-thumbnails img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.product-details {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.product-details h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.price {
+    font-size: 24px;
+    color: green;
+}
+
+.color-selection, .size-selection, .quantity-selection {
+    margin-top: 20px;
+}
+
+.colors {
+    display: flex;
+    gap: 10px;
+}
+
+.color {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.sizes label {
+    margin-right: 10px;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-buttons button {
+    background-color: #ddd;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity-buttons input {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.add-to-cart {
+    display: block;
+    background-color: #0056b3;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description h3 {
+    margin-top: 0;
+}

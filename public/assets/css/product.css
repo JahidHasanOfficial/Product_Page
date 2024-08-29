@@ -1,0 +1,1150 @@
+.fashionhub {
+    text-decoration: none;
+    position: relative;
+    font-style: italic;
+    font-weight: 800;
+    color: inherit;
+  }
+  .fashionhub-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.312rem 0 0;
+  }
+  .frame-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    background-color: #f5f1ee;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .image-icon {
+    position: absolute;
+    top: 0.875rem;
+    left: 0.938rem;
+    width: 1.313rem;
+    height: 1.313rem;
+    overflow: hidden;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    background-color: #f5f1ee;
+  }
+  .icon {
+    width: 0.375rem;
+    height: 0.625rem;
+    position: relative;
+  }
+  .wrapper {
+    height: 1.25rem;
+    width: 1.25rem;
+    margin: 0 !important;
+    position: absolute;
+    top: -0.187rem;
+    left: 2rem;
+    border-radius: 12px;
+    background-color: #1d364d;
+    border: 1.5px solid #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .columns,
+  .right-column {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .right-column {
+    height: 3.125rem;
+    width: 3.125rem;
+    justify-content: flex-start;
+    position: relative;
+    gap: 1.062rem;
+  }
+  .columns {
+    align-self: stretch;
+    border-bottom: 1px solid #ededed;
+    justify-content: space-between;
+    padding: 1.25rem 5rem 1.125rem;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    gap: 1.25rem;
+    text-align: left;
+    font-size: 2.05rem;
+    color: #0d3356;
+    font-family: Inter;
+  }
+  .frame-item {
+    height: 43.188rem;
+    flex: 1;
+    position: relative;
+    border-radius: 17px;
+    max-width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    min-width: 23.875rem;
+  }
+  .category-list-icon,
+  .home {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .home {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    min-width: 2.5rem;
+  }
+  .category-list-icon {
+    height: 1rem;
+    width: 1rem;
+    overflow: hidden;
+  }
+  .decoration,
+  .furniture,
+  .sideboard,
+  .storage {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .decoration {
+    flex: 1;
+    min-width: 2.938rem;
+  }
+  .furniture,
+  .sideboard,
+  .storage {
+    min-width: 3.688rem;
+  }
+  .sideboard,
+  .storage {
+    min-width: 3.313rem;
+  }
+  .sideboard {
+    flex: 1;
+    font-weight: 600;
+    color: #3a4980;
+    min-width: 2.938rem;
+  }
+  .home-parent {
+    width: 30.938rem;
+    border-radius: 8px;
+    background-color: #edf0f8;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.5rem 0.75rem;
+    box-sizing: border-box;
+    gap: 0.868rem;
+    max-width: 100%;
+    font-size: 0.875rem;
+    color: #a3a9c2;
+  }
+  .embrace-sideboard {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .teixeira-design-studio {
+    position: relative;
+    font-size: 1rem;
+    color: #b9bbbf;
+  }
+  .product-title {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.687rem;
+    font-size: 1.75rem;
+    color: #000;
+  }
+  .frame-inner {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    border-top: 1px solid #e4e4e4;
+    box-sizing: border-box;
+  }
+  .stars {
+    position: relative;
+    display: inline-block;
+    min-width: 7.063rem;
+    white-space: nowrap;
+  }
+  .rating-stars {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .recommendation-label {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 1.375rem;
+  }
+  .review-count {
+    border-radius: 27px;
+    background-color: #fbf3ea;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.437rem 0.625rem;
+    gap: 0.437rem;
+  }
+  .reviews {
+    position: relative;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-family: Inter;
+    color: #3a4980;
+    text-align: left;
+    display: inline-block;
+    min-width: 4.875rem;
+  }
+  .review-count-parent,
+  .review-count1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .review-count1 {
+    cursor: pointer;
+    border: 0;
+    padding: 0.437rem 0.625rem;
+    background-color: #edf0f8;
+    border-radius: 27px;
+    align-items: center;
+    gap: 0.437rem;
+    white-space: nowrap;
+  }
+  .review-count1:hover {
+    background-color: #d4d6de;
+  }
+  .review-count-parent {
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  .span {
+    font-weight: 600;
+  }
+  .of-buyers-have {
+    color: #b9bbbf;
+  }
+  .of-buyers-have-container {
+    position: relative;
+    color: #3e9242;
+  }
+  .recommendation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.875rem;
+    font-size: 0.875rem;
+    color: #d48d3b;
+  }
+  .rating-container,
+  .rating-container-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rating-container {
+    align-items: center;
+    gap: 2.562rem;
+  }
+  .rating-container-wrapper {
+    align-items: flex-start;
+    padding: 0 0 0.687rem;
+    box-sizing: border-box;
+    font-size: 2.125rem;
+  }
+  .choose-a-color {
+    position: relative;
+    line-height: 1.25rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 7.438rem;
+  }
+  .swatch {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%; /* Ensures the element is a perfect circle */
+    background-color: #ecdecd;
+    width: 100%; /* Width and height should be the same */
+    height: 100%; /* Ensures the circle maintains its aspect ratio */
+  }
+  
+  .vector-stroke-icon {
+    position: absolute;
+    top: 0.938rem;
+    left: 0.813rem;
+    width: 1.488rem;
+    height: 1.213rem;
+    z-index: 1;
+  }
+  /* .color-swatches {
+    height: 3.125rem;
+    flex: 1;
+    position: relative;
+    width: 3.125rem;
+  } */
+  
+  .rectangle-div {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 32px;
+    border: 3px solid #ecdecc;
+    box-sizing: border-box;
+  }
+  .rectangle-div {
+    position: relative;
+    display: none;
+  }
+  .color-swatches-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.437rem;
+    z-index: 2;
+  }
+  .frame-child1 {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+  }
+  .frame-child2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 32px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 1;
+  }
+  .rectangle-container {
+    height: 4rem;
+    width: 4rem;
+    position: relative;
+    border-radius: 32px;
+    z-index: 1;
+  }
+  .frame-child3 {
+    background-color: #bbc1f8;
+  }
+  .frame-child3,
+  .frame-child5,
+  .frame-child7 {
+    position: absolute;
+    width: calc(100% - 14px);
+    top: 0.438rem;
+    right: 0.438rem;
+    left: 0.438rem;
+    border-radius: 25px;
+    height: 3.125rem;
+  }
+  .frame-child5 {
+    background-color: #ffd3f8;
+  }
+  .frame-child7 {
+    background: conic-gradient(
+      from 12.53deg at 50% 50%,
+      #ffb6b6 0deg,
+      #98c185 360deg
+    );
+  }
+  
+  .color-picker {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.75rem;
+  }
+  .color-picker {
+    flex-direction: column;
+    gap: 0.812rem;
+    max-width: 100%;
+    color: #b9bbbf;
+  }
+  .choose-a-size {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 6.813rem;
+  }
+  .frame-child10 {
+    position: absolute;
+    top: 0.188rem;
+    left: 0.188rem;
+    border-radius: 25px;
+    background-color: #3a4980;
+    width: 0.625rem;
+    height: 0.625rem;
+    display: none;
+  }
+  .small-box-stroke {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 32px;
+    border: 1px solid #3a4980;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .rectangle-parent3 {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    border-radius: 25px;
+    background-color: #3a4980;
+  }
+  .small-size-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.062rem 0 0;
+  }
+  .small {
+    position: relative;
+    font-size: 0.875rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: #3a4980;
+    text-align: left;
+    display: inline-block;
+    min-width: 2.313rem;
+  }
+  .small-size {
+    cursor: pointer;
+    border: 0;
+    padding: 0.437rem 0.625rem;
+    background-color: #edf0f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+  .size-box {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    border-radius: 32px;
+    border: 1px solid #726c6c;
+    box-sizing: border-box;
+  }
+  .medium {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 3.375rem;
+  }
+  .size-options1 {
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.437rem 0.625rem;
+    gap: 0.5rem;
+  }
+  .large {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 2.375rem;
+  }
+  .frame-child12 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 32px;
+    border: 1px solid #726c6c;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .extra-large,
+  .xxl {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 4.813rem;
+  }
+  .xxl {
+    min-width: 1.75rem;
+  }
+  .size-options4 {
+    border-radius: 8px;
+    background-color: #f3f3f3;
+    flex-direction: row;
+    padding: 0.437rem 0.625rem;
+    gap: 0.437rem;
+  }
+  .size-options,
+  .size-options4,
+  .size-picker {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .size-options {
+    flex-direction: row;
+    gap: 0.687rem;
+    font-size: 0.875rem;
+    color: #726c6c;
+  }
+  .size-picker {
+    flex-direction: column;
+    gap: 0.875rem;
+    max-width: 100%;
+    color: #b9bbbf;
+  }
+  .frame-child15 {
+    height: 3.688rem;
+    width: 10.563rem;
+    position: relative;
+    border-radius: 29.5px;
+    background-color: #f3f3f3;
+    flex-shrink: 0;
+    display: none;
+  }
+  .input {
+    position: relative;
+    display: inline-block;
+    min-width: 0.563rem;
+    z-index: 1;
+  }
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.062rem 0 0;
+    color: #a2a2a2;
+  }
+  .b,
+  .quantity-label {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+  }
+  .quantity-label {
+    font-size: 1.375rem;
+    min-width: 0.938rem;
+  }
+  .b {
+    min-width: 0.813rem;
+  }
+  .rectangle-parent4 {
+    width: 10.563rem;
+    border-radius: 29.5px;
+    background-color: #f3f3f3;
+    overflow-x: auto;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 1rem 1.687rem;
+    box-sizing: border-box;
+    gap: 1.25rem;
+  }
+  .frame-child16 {
+    height: 3.688rem;
+    width: 19.313rem;
+    position: relative;
+    border-radius: 29.5px;
+    background-color: #3a4980;
+    display: none;
+  }
+  .add-to-cart,
+  .cart-label {
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .cart-label {
+    min-width: 6.188rem;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .add-to-cart {
+    min-width: 7.25rem;
+    z-index: 2;
+  }
+  .add-button,
+  .content,
+  .rectangle-parent5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .add-button {
+    flex-direction: column;
+    padding: 0.187rem 0 0;
+    font-size: 1.25rem;
+  }
+  .content,
+  .rectangle-parent5 {
+    flex-direction: row;
+  }
+  .rectangle-parent5 {
+    border-radius: 29.5px;
+    background-color: #3a4980;
+    padding: 0.875rem 2.437rem 1rem 3.187rem;
+    gap: 0.25rem;
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  .content {
+    gap: 1.187rem;
+    max-width: 100%;
+    font-size: 1.125rem;
+  }
+  .frame-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 1.812rem;
+    min-width: 23.625rem;
+  }
+  .carousel-navigation,
+  .columns-parent,
+  .frame-parent,
+  .rectangle-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .rectangle-group {
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 6.937rem;
+  }
+  .carousel-navigation,
+  .columns-parent {
+    align-self: stretch;
+  }
+  .carousel-navigation {
+    flex-direction: row;
+    padding: 0 5rem;
+    box-sizing: border-box;
+  }
+  .columns-parent {
+    flex-direction: column;
+    gap: 2.5rem;
+    text-align: left;
+    font-size: 1rem;
+    color: #3a4980;
+    font-family: Inter;
+  }
+  .frame-icon1 {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .description,
+  .description-icon {
+    position: relative;
+    display: inline-block;
+  }
+  .description-icon {
+    width: 0;
+    height: 0;
+    line-height: 1.625rem;
+  }
+  .description {
+    font-weight: 600;
+    font-family: Inter;
+    color: #164c96;
+    min-width: 5.625rem;
+  }
+  .description-icon-parent {
+    flex-direction: column;
+    gap: 0.281rem;
+  }
+  .description-icon-parent,
+  .image-carousel,
+  .title-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image-carousel {
+    flex-direction: row;
+    padding: 0 0 0 1.187rem;
+  }
+  .title-container {
+    flex-direction: column;
+    gap: 6.562rem;
+  }
+  .frame-icon2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .description-container {
+    width: 36.688rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1.25rem;
+    max-width: 100%;
+  }
+  .description-image-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #eaecf0;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .image-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #164c96;
+    width: 8rem;
+    height: 0.25rem;
+    z-index: 1;
+  }
+  .description-image {
+    align-self: stretch;
+    height: 0.25rem;
+    position: relative;
+    background-color: #eaecf0;
+  }
+  .description-container-parent,
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .description-container-parent {
+    align-self: stretch;
+    gap: 0.843rem;
+  }
+  .product-info {
+    width: 79.938rem;
+    padding: 2.875rem 0 0;
+    box-sizing: border-box;
+  }
+  .carousel-indicators-icon {
+    height: 7.188rem;
+    width: 32.5rem;
+    object-fit: cover;
+    max-width: 100%;
+    margin-left: -77.813rem;
+  }
+  .main {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0.562rem;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 1rem;
+    color: #4f547b;
+  }
+  .product-description {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+  }
+  .when-its-colder {
+    align-self: stretch;
+    position: relative;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    font-family: Inter;
+    color: #667085;
+  }
+  .product-description-parent {
+    width: 65.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.312rem;
+    max-width: 100%;
+  }
+  .benefits {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 5.625rem;
+  }
+  .check-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .durable-leather-is {
+    flex: 1;
+    position: relative;
+    line-height: 1.75rem;
+    display: inline-block;
+    min-width: 25.188rem;
+    max-width: 100%;
+  }
+  .benefit-items,
+  .check-icon-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .benefit-items {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 0.875rem;
+    max-width: 100%;
+  }
+  .check-icon-wrapper {
+    flex-direction: column;
+    padding: 0.25rem 0 0;
+  }
+  .toe-piece-with,
+  .water-repellent-finish-and {
+    flex: 1;
+    position: relative;
+    line-height: 1.75rem;
+    display: inline-block;
+    min-width: 26.188rem;
+    max-width: 100%;
+  }
+  .toe-piece-with {
+    min-width: 16.063rem;
+  }
+  .originally-designed-for,
+  .plush-tongue-wraps,
+  .rubber-outsole-with,
+  .synthetic-insulation-helps {
+    flex: 1;
+    position: relative;
+    line-height: 1.75rem;
+    display: inline-block;
+    min-width: 15.75rem;
+    max-width: 100%;
+  }
+  .originally-designed-for,
+  .plush-tongue-wraps,
+  .rubber-outsole-with {
+    min-width: 32.688rem;
+  }
+  .plush-tongue-wraps,
+  .rubber-outsole-with {
+    min-width: 27.938rem;
+  }
+  .rubber-outsole-with {
+    min-width: 24.938rem;
+  }
+  .benefits-list {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.875rem;
+    max-width: 100%;
+    font-size: 1rem;
+    color: #667085;
+    font-family: Inter;
+  }
+  .not-intended-for {
+    flex: 1;
+    position: relative;
+    line-height: 1.75rem;
+    display: inline-block;
+    min-width: 22.813rem;
+    max-width: 100%;
+  }
+  .more-details {
+    width: 68.013rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.312rem;
+    max-width: 100%;
+  }
+  .colour-shown-ale,
+  .encapsulated-air-sole-heel,
+  .lunarlon-midsole-delivers,
+  .style-805899-202 {
+    flex: 1;
+    position: relative;
+    line-height: 1.75rem;
+    display: inline-block;
+    min-width: 19.938rem;
+    max-width: 100%;
+  }
+  .colour-shown-ale,
+  .encapsulated-air-sole-heel,
+  .style-805899-202 {
+    min-width: 21.625rem;
+  }
+  .colour-shown-ale,
+  .style-805899-202 {
+    min-width: 19.563rem;
+  }
+  .style-805899-202 {
+    min-width: 7rem;
+  }
+  h1{
+    color: #164c96;
+  }
+  .main-parent,
+  .product-details,
+  .product-page {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .main-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 100%;
+  }
+  .product-details,
+  .product-page {
+    box-sizing: border-box;
+  }
+  .product-details {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 5.062rem 0 5rem;
+    max-width: 100%;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #344154;
+    font-family: "Proxima Nova";
+  }
+  .product-page {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    padding: 0 0 7.812rem;
+    gap: 2.312rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 750px) {
+    .columns {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      box-sizing: border-box;
+    }
+    .stars {
+      font-size: 1.688rem;
+    }
+    .carousel-navigation {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      box-sizing: border-box;
+    }
+    .columns-parent {
+      gap: 1.25rem;
+    }
+    .originally-designed-for {
+      min-width: 100%;
+    }
+    .product-details {
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      box-sizing: border-box;
+    }
+    .product-page {
+      gap: 1.125rem;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .frame-item {
+      min-width: 100%;
+    }
+    .content,
+    .home-parent,
+    .rating-container,
+    .size-options {
+      flex-wrap: wrap;
+    }
+    .frame-parent {
+      min-width: 100%;
+    }
+    .rectangle-group {
+      gap: 3.438rem;
+    }
+    .durable-leather-is,
+    .encapsulated-air-sole-heel,
+    .not-intended-for,
+    .plush-tongue-wraps,
+    .rubber-outsole-with,
+    .water-repellent-finish-and {
+      min-width: 100%;
+    }
+    .main-parent {
+      gap: 1.25rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .embrace-sideboard {
+      font-size: 1.375rem;
+    }
+    .stars {
+      font-size: 1.25rem;
+    }
+    .rating-container {
+      gap: 1.25rem;
+    }
+    .color-options {
+      flex-wrap: wrap;
+    }
+    .quantity-label {
+      font-size: 1.125rem;
+    }
+    .cart-label {
+      font-size: 1.188rem;
+    }
+    .add-to-cart {
+      font-size: 1rem;
+    }
+    .rectangle-parent5 {
+      flex-wrap: wrap;
+      padding-left: 1.25rem;
+      box-sizing: border-box;
+    }
+    .rectangle-group {
+      gap: 1.75rem;
+    }
+    .benefits,
+    .product-description {
+      font-size: 1.188rem;
+    }
+  }
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .carousel-large img {
+    width: 587px;
+    height: 691px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .carousel-thumbnails {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .carousel-thumbnails .thumbnail {
+    width: 100px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-thumbnails .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  .color-swatches {
+    display: flex;
+  }
+  
+  .color-swatch {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .color-swatch.selected::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black; /* Adjust the stroke color */
+    border-radius: 50%;
+    pointer-events: none;
+  }
+  .size-radio{
+    
+    height: 16px;
+    width: 16px;
+    vertical-align: middle;
+    background-color: #3A4980;
+    margin-top: -0.5px;
+  }
